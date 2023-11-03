@@ -13,43 +13,45 @@
   <!-- Rating state start -->
   <main>
     <div class="card">
-      <img src="images/icon-star.svg" alt="">
-      <p>
-        How did we do?
-      </p>
-      <p>
-        Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!
-      </p>
-      <ul>
-        <li><a href="#" class="circle1" onclick="circles1()"></a>1</li>
-        <li><a href="#" class="circle2" onclick="circles2()"></a>2</li>
-        <li><a href="#" class="circle3" onclick="circles3()"></a>3</li>
-        <li><a href="#" class="circle4" onclick="circles4()"></a>4</li>
-        <li><a href="#" class="circle5" onclick="circles5()"></a>5</li>
-      </ul>
-      <button class="submit-button">
-        Submit
-      </button>
+      <div class="rating">
+        <img src="images/icon-star.svg" alt="">
+        <p>
+          How did we do?
+        </p>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+        <ul>
+          <a href="#" onclick="circles1()"><li class="circle1">1</li></a>
+          <a href="#" onclick="circles2()"><li class="circle2">2</li></a>
+          <a href="#" onclick="circles3()"><li class="circle3">3</li></a>
+          <a href="#" onclick="circles4()"><li class="circle4">4</li></a>
+          <a href="#" onclick="circles5()"><li class="circle5">5</li></a>
+        </ul>
+        <button class="submit-button" onclick="submit()">
+          Submit
+        </button>
+      </div>
+      <!-- Rating state end -->
+      <!-- Thank you state start -->
+      <div class="thanks">
+        You selected <!-- Add rating here --> out of 5
+
+        Thank you!
+
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </div>
     </div>
-  </main>
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+    <!-- Thank you state end -->
+  
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main>
 </body>
 </html>

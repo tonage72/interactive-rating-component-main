@@ -25,9 +25,13 @@ main{
 }
 .card{
 	width: 325px;
+	height: 365px;
 	border-radius: 1rem;
 	padding: 1.5rem 1.3rem 2rem 1.3rem;
 	background-color: hsl(213, 19%, 18%);
+}
+.card a{
+	text-decoration: none;
 }
 .card img{
 	padding: 0.8rem;
@@ -77,8 +81,16 @@ button{
 	color: white;
 	background-color: hsl(25, 97%, 53%);
 	margin-top: 1.5rem;
+	display: none;
+}
+.rating {
+	/* display: none; */
+}
+.thanks {
+	display: none;
 }
 .attribution{
+	margin-top: 1rem;
 	font-size: 11px; 
 	text-align: center;
 }
