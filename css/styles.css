@@ -83,9 +83,6 @@ button{
 	margin-top: 1.5rem;
 	display: none;
 }
-.rating {
-	/* display: none; */
-}
 .thanks {
 	display: none;
 }
@@ -95,5 +92,5 @@ button{
 	text-align: center;
 }
 .attribution a{
-	color: hsl(228, 45%, 44%)
+	color: hsl(150, 45%, 44%)
 }
