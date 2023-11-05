@@ -13,7 +13,7 @@
   <!-- Rating state start -->
   <main>
     <div class="card">
-      <div class="rating">
+      <div class="ratingCard">
         <img src="images/icon-star.svg" class="starIcon" alt="">
         <p>
           How did we do?
@@ -23,25 +23,21 @@
           to help us improve our offering!
         </p>
         <ul>
-          <a href="#" onclick="circles1()"><li class="circle1">1</li></a>
-          <a href="#" onclick="circles2()"><li class="circle2">2</li></a>
-          <a href="#" onclick="circles3()"><li class="circle3">3</li></a>
-          <a href="#" onclick="circles4()"><li class="circle4">4</li></a>
-          <a href="#" onclick="circles5()"><li class="circle5">5</li></a>
+          <a href="#" class="ratingCircle"><li>1</li></a>
+          <a href="#" class="ratingCircle"><li>2</li></a>
+          <a href="#" class="ratingCircle"><li>3</li></a>
+          <a href="#" class="ratingCircle"><li>4</li></a>
+          <a href="#" class="ratingCircle"><li>5</li></a>
         </ul>
-        <button class="submit-button" onclick="submit()">
+        <button class="submit-button">
           Submit
         </button>
       </div>
       <!-- Rating state end -->
       <!-- Thank you state start -->
-      <div class="thanks">
+      <div class="thanksCard">
         <img src="images/illustration-thank-you.svg" class="thanksIcon" alt="">
-        <p class="selection1">You selected 1 out of 5</p>
-        <p class="selection2">You selected 2 out of 5</p>
-        <p class="selection3">You selected 3 out of 5</p>
-        <p class="selection4">You selected 4 out of 5</p>
-        <p class="selection5">You selected 5 out of 5</p>
+        <p class="selection1">You selected <span>1</span> out of 5</p>
         
         Thank you!
 
@@ -50,9 +46,6 @@
       </div>
     </div>
     <!-- Thank you state end -->
-  
-
-  
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">David Fleming</a>.
