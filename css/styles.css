@@ -33,6 +33,14 @@ main{
 .card a{
 	text-decoration: none;
 }
+.card a:hover{
+	background-color: hsl(217, 12%, 63%);
+	color: black;
+}
+.card a:focus{
+	background-color: hsl(25, 97%, 53%);
+	color: black;
+}
 .starIcon{
 	padding: 0.8rem;
 	background-color: hsl(210, 2%, 24%);
@@ -49,7 +57,7 @@ main{
 	font-size: 0.8rem;
 	color: hsla(0, 0%, 100%, .7);
 }
-ul{
+.ratingCircles{
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
@@ -57,7 +65,7 @@ ul{
 	width: 100%;
 	padding-top: 1.5rem;
 }
-ul li{
+.ratingCircles a{
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -79,9 +87,10 @@ ul li{
 	font-weight: 700;
 	letter-spacing: .1rem;
 	color: white;
+	cursor: pointer;
 	background-color: hsl(25, 97%, 53%);
 	margin-top: 1.5rem;
-	display: block;
+	display: none;
 }
 .thanksCard {
 	display: none;

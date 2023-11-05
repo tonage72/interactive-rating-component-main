@@ -11,6 +11,7 @@ submitButton.addEventListener('click', () => {
 
 ratingCircle.forEach((ratingChosen) => {
 	ratingChosen.addEventListener('click', () => {
+	submitButton.style.display = 'block';
 	ratingResult.innerHTML = ratingChosen.innerHTML;
 	})
 });
