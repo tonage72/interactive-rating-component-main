@@ -6,6 +6,11 @@ const circle5 = document.querySelector(".circle5");
 const submitButton = document.querySelector(".submit-button")
 const rating = document.querySelector(".rating")
 const thanks = document.querySelector(".thanks")
+const selection1 = document.querySelector(".selection1")
+const selection2 = document.querySelector(".selection2")
+const selection3 = document.querySelector(".selection3")
+const selection4 = document.querySelector(".selection4")
+const selection5 = document.querySelector(".selection5")
 
 function circles1(){
 	circle1.style.background = "hsl(25, 97%, 53%)";
